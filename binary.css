@@ -1,0 +1,13 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.input-wrapper-switch .decimal {
+  order: -1;
+}
+
+input {
+  margin-bottom: 20px;
+}

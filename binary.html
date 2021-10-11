@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="input-wrapper">
+    <div class="binary">
+      <label for="binaryInput">Bynary</label>
+      <input class="binary-input" type="number" name="" id="binaryInput">
+    </div>
+
+    <div class="decimal">
+      <label for="decimalInput">Decimal</label>
+      <input class="decimal-input" type="number" name="" id="decimalInput">
+    </div>
+  </div>
+
+  <button onclick="convert.invert()">Invert</button>
+  <button onclick="convert.convert()">Convert</button>
+
+  <style>
+    .input-wrapper { display: flex; flex-direction: column; margin-bottom: 30px;}
+    .input-wrapper-switch .decimal {order: -1;}
+    input { margin-bottom: 20px;}
+  </style>
+  <script src="./binary.js"></script>
+</body>
+</html>
